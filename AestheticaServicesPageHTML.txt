@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="AestheticaHomePage.css">
+    <link rel="stylesheet" href="AestheticaServicesPage.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+    <title>Aesthetica</title>
+    <!--Animation-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="js/wow.min.js"></script>
+              <script>
+                new WOW().init();
+              </script>
+
+  <body>
+      <!--Navbar-->
+      <nav id="home" class="navbar navbar-expand-lg navbar- navbar-light">
+        <a class="navbar-brand" href="AestheticaHomePage.html">
+            <i class="fas fa-leaf"style="color: black;"></i>
+            <span class="align middle ml-1" style="color:#86245F; font-family:'Niconne';margin-left: 2px;">Aesthetica</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto mr-5">
+                <a class="nav-item nav-link active" style="float: right;" href="AestheticaHomePage.html"><b style="color: white;font-family:'Montserrat';">Home</b><span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" style="float: right;" href="AestheticaHomePage.html"><b style="color: white;font-family:'Montserrat';">About us</b></a>
+                <a class="nav-item nav-link" style="float: right;" href="AestheticaWorkPage.html"><b style="color: white;font-family:'Montserrat';">Projects</b></a>
+                <a class="nav-item nav-link"style="float: right;" href="#contact"><b style="color: white;font-family:'Montserrat';">Contact</b></a>
+            </div>
+        </div>
+      </nav>
+      <!--Header-->
+
+      <header>
+        <div class="jumbotron jumbotron-fluid"style="background-color:#86245F; padding-top:100px;padding-bottom:100px; width:100%">
+            <h1 style="color: white;text-align: center;font-family:'Playfair Display';font-size: 80px;">Services</h1>
+        </div>
+      </header>
+      <!--Services-->
+      <section id="Services">
+          <div class="container" id="Serv1">
+          <h1 class="wow animate__animated animate__fadeInLeftBig">Our services include:</h1><br>
+          <ul class="fa-ul wow animate__animated animate__fadeInRightBig"> 
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Space Planning.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Furniture layout using new and existing furniture.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Floor plans, elevations, details and rendering.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Custom furniture, cabinet and millwork design.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Kitchen and bathroom design.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Residential solutions.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Office interior.</li>
+              <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Electrical solutions.</li>
+            <br><br>
+          </ul>
+        </div>
+        <div class="container" id="Serv2">
+            <h1 class="wow animate__animated animate__lightSpeedInLeft">Pre-construction services:</h1><br>
+            <p class="wow animate__animated animate__lightSpeedInRight">Helping clients to communicate interior elements needed by architects and contractors prior to and during the construction process.</p>         
+            <br><br>
+        </div>
+        <div class="container" id="Serv3">
+            <h1 class="wow animate__animated animate__slideInLeft">Together with interior design solutions, Aesthetica provides:</h1><br>
+            <ul class="fa-ul wow animate__animated animate__slideInRight">
+                <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Wedding Planning</li>
+                <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Birthday Parties</li>
+                <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Wedding</li>
+                <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Event Management</li>
+                <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>Art works banner, signboard, lamp posts, cards, etc.</li>
+            </ul>
+        </div>
+              
+      </section>
+
+
+
+
+      <!--Footer-->
+    <footer>
+        <!--Contact-->
+        <div class="jumbotron jumbotron-fluid" id="contact" style="position: relative;text-align: center;background-color: lightblue; margin-bottom: 0px;padding-top:70px;padding-bottom: 120px;width:100%;margin-top: 30px;">
+            <div style="display:inline-block;">
+            <h2 style="font-family: 'Playfair Display';font-size: 25px; font-weight: bold;color: #86245F;">Got a space that needs a touch?</h2><hr><br>
+            <ul id="contact_list" class="fa-ul" style="position: absolute;">
+                <li style="font-family:'Montserrat'"><span class="fa-li"><i class="fas fa-envelope wow animate__animated animate__bounce"></i></span>sizzil.786@gmail.com</li>
+                <li style="font-family:'Montserrat'"><span class="fa-li"><i class="fas fa-phone-alt wow animate__animated animate__bounce"></i></span>+8801627374550</li>
+                <li style="font-family:'Montserrat'"><span class="fa-li"><i class="fab fa-facebook-square wow animate__animated animate__bounce"></i></span>@aestheticabd</li>
+            </ul>
+        </div>
+        </div>
+
+        <!--copyright-->
+        <div id="crContainer" class="jumbotron jumbotron-fluid" style="background-color: lightblue;margin-top: 0px;margin-bottom: 0px; width:100%;height: 50px;padding-top: 3px;padding-bottom: 0px;padding-left: 20px;">
+            <span id="cr" class="align middle" style="color: black; font-family: 'Montserrat';"> © AzmainMorshed 2020</span>
+        </div>
+        
+    </footer>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
