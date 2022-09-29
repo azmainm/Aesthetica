@@ -1,0 +1,30 @@
+﻿html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-image: url("img/bg.jpg") ;
+}
+#Services h1{
+    text-align: center;
+    color: #86245F;
+    font-family: 'Playfair Display';
+}
+#Services li{
+    font-family: 'Montserrat';
+    text-align: left;
+    color:#68B1D2;
+    list-style-type: none;
+}
+#Services p{
+    text-align: justify;
+    color: #68B1D2;
+    font-family: 'Montserrat';
+}
+.container{
+    width:100%;
+}
+@media only screen and (min-width:1000px){
+    .jumbotron>h1{
+        font-size:100px;
+    }
+}

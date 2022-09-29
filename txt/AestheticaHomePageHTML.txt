@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="AestheticaHomePage.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+    <title>Aesthetica</title>
+    <!--Animation-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="js/wow.min.js"></script>
+              <script>
+                new WOW().init();
+              </script>
+
+  <body>
+      <!--Navbar-->
+      <nav id="home" class="navbar navbar-expand-lg navbar- navbar-light">
+        <a class="navbar-brand" href="#home">
+            <i class="fas fa-leaf"style="color: black;"></i>
+            <span class="align middle ml-1" style="color:#86245F; font-family:'Niconne';margin-left: 2px;">Aesthetica</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto mr-5">
+                <a class="nav-item nav-link active" style="float: right;" href="#Home"><b style="color: white;font-family:'Montserrat';">Home</b><span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" style="float: right;" href="#About"><b style="color: white;font-family:'Montserrat';">About us</b></a>
+                <a class="nav-item nav-link" style="float: right;" href="AestheticaServicesPage.html"><b style="color: white;font-family:'Montserrat';">Services</b></a>
+                <a class="nav-item nav-link" style="float: right;" href="AestheticaWorkPage.html"><b style="color: white;font-family:'Montserrat';">Projects</b></a>
+                <a class="nav-item nav-link"style="float: right;" href="#contact"><b style="color: white;font-family:'Montserrat';">Contact</b></a>
+            </div>
+        </div>
+      </nav>
+      <!--Header-->
+
+      <header>
+        <img id="headerimg" src="img/header3.jpg">
+      </header>
+
+      <!--About Section-->
+      <article id="About">
+        <!--About Aesthetica-->
+          <div class="container" id="aboutFirm">
+              <h1 style="text-align: center;" class="wow animate__animated animate__fadeIn">About Aesthetica</h1><hr>
+              <p style="text-align: center;" class="wow animate__animated animate__fadeIn"data-wow-delay="0.5s">Aesthetica was formed in the year 2004 as a design team; striving to create the perfect fusion of ingenuity, art, passion and technology called
+                  <i>"Design Consciousness".</i><br>Aesthetica believe in creating a near perfect balance between:
+              </p>
+              <ul id="aboutList"  class="fa-ul wow animate__animated animate__fadeIn"data-wow-delay="0.8s">
+                  <li><span class="fa-li"><i class="fas fa-leaf" style="color: black;"></i></span>  Creativity- the holistic approach of design towards creating an ambience to invite, cherish or work is the primary goal.</li>
+                  <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>  Usability- the effective, efficient and functional utilization of spaces to maximize client's design intent and vision.</li>
+                  <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>  Materials- We work closely with suppliers to keep up to date with knowledge and new materials/products and their research developments.</li>
+                  <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>  Technical expertise has brought together the use of materials, recent development in technology, innovative products, 3D visualization, etc.</li>
+                  <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>  Documenting the attention to detail is paramount and no effort is sppared in preparation of drawings, specifications.</li>
+                  <li><span class="fa-li"><i class="fas fa-leaf"style="color: black;"></i></span>  Project management- Guiding projects through budgets, schedules and design intent services. </li>
+              </ul>
+          </div>
+          <!--About Sizzil Momtaz-->
+          <div class="container" id="aboutDesigner">
+              <h1 style="text-align: center;" class="wow animate__animated animate__fadeIn"data-wow-delay="1.3s">About the designer</h1><hr>
+              <img id="SizzilImg" src="img/SM.jpg"alt="A picture of Sizzil Momtaz"class="wow animate__animated animate__fadeIn"data-wow-delay="1.7s">
+              <p style="text-align: justify;" class="wow animate__animated animate__fadeIn"data-wow-delay="1.7s">Sizzil Momtaz is a professional designer engaged in professional practice in architectural 
+                and interior designing for more than a decade. Sizzil is an active member of the society. Besides running her company, she is also a charter president
+                of Rotary Club of Chittagong Pearl, member of various institutions like FBCCI, CWCCI, Ma O Shishu Hospital, Bishob Bangla, etc. <br><br>The firm Aesthetica was born in 2004 with its principal architect and chief designer
+             Sizzil Momtaz. The firm provides for architechtural and interior design services along with consultation, execution, turnkey assignments and project management.
+            <br><br>The firm has steadily grown over the past decade doing interior projects for small offices, large commercial spaces, corporate interiors,
+         high-rise residential interiors, shops, showrooms, nursing homes, restaurants, banks and other interior projects of varying magnitudes. <br>
+        The firm strongly believes in client satisfaction as primary objective and simple aesthetically planned functional interiors which suit the client'
+     taste and budget.</s></p>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <!--Contact-->
+        <div class="jumbotron jumbotron-fluid" id="contact" style="position: relative;text-align: center;background-color: lightblue; margin-bottom: 0px;padding-top:70px;padding-bottom: 120px;width:100%;margin-top: 30px;">
+            <div style="display:inline-block;">
+            <h2 style="font-family: 'Playfair Display';font-size: 25px; font-weight: bold;color: #86245F;">Got a space that needs a touch?</h2><hr><br>
+            <ul id="contact_list" class="fa-ul" style="position: absolute;">
+                <li style="font-family:'Montserrat'"><span class="fa-li"><i class="fas fa-envelope wow animate__animated animate__bounce"></i></span>sizzil.786@gmail.com</li>
+                <li style="font-family:'Montserrat'"><span class="fa-li"><i class="fas fa-phone-alt wow animate__animated animate__bounce"></i></span>+8801627374550</li>
+                <li style="font-family:'Montserrat'"><span class="fa-li"><i class="fab fa-facebook-square wow animate__animated animate__bounce"></i></span>@aestheticabd</li>
+            </ul>
+        </div>
+        </div>
+
+        <!--copyright-->
+        <div id="crContainer" class="jumbotron jumbotron-fluid" style="background-color: lightblue;margin-top: 0px;margin-bottom: 0px; width:100%;height: 50px;padding-top: 3px;padding-bottom: 0px;padding-left: 20px;">
+            <span id="cr" class="align middle" style="color: black; font-family: 'Montserrat';"> © AzmainMorshed 2020</span>
+        </div>
+        
+    </footer>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
